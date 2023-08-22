@@ -11,19 +11,19 @@ type Results = {
 
 const ResultsComponent: React.FC = () => {
   return (
-    <div className="flex justify-center items-stretch drop-shadow-custom grid-cols-2 my-44">
-      <div className="bg-gradient-to-b from-indigo-600 to-indigo-500 rounded-3xl flex flex-col flex-auto-0 py-4 px-16">
+    <div className="flex flex-col md:flex-row justify-center items-stretch drop-shadow-custom grid-cols-2 sm:my-44">
+      <div className="bg-gradient-to-b from-indigo-600 to-indigo-500 rounded-b-3xl sm:rounded-3xl flex flex-col flex-auto-0 py-4 px-16">
         <div className="text-center">
-          <p className="text-gray-300 font-body font-bold text-xl py-4">Your Result</p>
-          <div className="relative w-48 h-48 rounded-full bg-gradient-to-b from-indigo-800 to-indigo-600 mx-auto">
+          <p className="text-gray-300 font-body font-bold sm:text-xl py-3 sm:py-4">Your Result</p>
+          <div className="relative w-36 h-36 sm:w-48 sm:h-48 rounded-full bg-gradient-to-b from-indigo-800 to-indigo-600 mx-auto">
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-              <p className="text-white font-body font-extrabold text-7xl">76</p>
+              <p className="text-white font-body font-extrabold text-5xl sm:text-7xl">76</p>
               <p className="text-gray-400 font-body font-medium">of 100</p>
             </div>
           </div>
           <div>
-            <p className="text-white font-body font-bold text-3xl py-4">Great</p>
-            <p className="text-gray-300 font-body">You scored higher than 65% of<br></br> the people who have taken<br></br> these tests.</p>
+            <p className="text-white font-body font-bold text-2xl sm:text-3xl py-2 sm:py-4">Great</p>
+            <p className="text-gray-300 font-body text-sm pb-4 sm:pb-0">You scored higher than 65% of<br className="hidden sm:inline"></br> the people who have taken<br className="hidden sm:inline"></br> these tests.</p>
           </div>
         </div>
       </div>
