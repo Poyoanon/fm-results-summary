@@ -6,5 +6,4 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - [Vite](https://vitejs.dev/) - Build tool
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Tailwind CSS](https://tailwindcss.com/) - For styles
